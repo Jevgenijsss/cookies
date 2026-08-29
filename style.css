@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 2rem 3rem;
+}
+
+.logo-container, .nav-placeholder {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo-placeholder {
+    height: 5rem;
+    width: 5rem;
+}
+
+.logo-placeholder, .large-article, .small-article, .article-placeholder {
+    border-radius: 1rem;
+    background-color: #5f5e5e59;
+}
+
+p, h1 {
+    color: #5f5e5e59;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.large-article {
+    height: 15rem;
+    width: 55rem;
+    margin: 2rem 0;
+}
+
+.small-article {
+    height: 5rem;
+    width: 55rem;
+}
+
+.article-group {
+    display: flex;
+    justify-content: space-between;
+    width: 55rem;
+    margin-bottom: 2rem;
+}
+
+.article-item {
+    width: 13rem;
+}
+
+.article-placeholder {
+    width: 5rem;
+    height: 10rem;
+}
+
+.cookies-pup {
+    position: fixed;
+    left: 40rem;
+    top: 37rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: #070707ef;
+    border-radius: 1rem;
+}
+
+.cookies-group {
+    display: flex;
+    height: inherit;
+    padding: 0 2rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cookie-icon {
+    width: 5rem;
+}
+
+.cookies-text {
+    color: white;
+}
+
+.cookies-btn {
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 15rem;
+}
+
+.cookies-btn:hover {
+    background-color: #5f5e5e59;
+    color: white;
+    cursor: pointer;
+}
+
+.cookies-text, .cookies-btn {
+    font-size: 1.2rem;
+}
+
+.close-btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    width: 1.5rem;
+    position: absolute;
+    top: 1.7rem;
+    left: 17rem;
+    font-size: 1.5rem;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+    color: #5f5e5e59;
+}
